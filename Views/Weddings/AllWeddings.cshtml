@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model User;
+
+
+<div class="container text-center px-2">
+    <h1 class="display-4"></h1>
+    <div class="mt-5">
+        <hr width="100%"/><br/>
+        <table class="card bg-light">
+            <thead>
+                <tr class="d-flex justify-content-around">
+                    <td class="w-25">Wedding of</td>
+                    <td class="bg-secondary w-25">Date</td>
+                    <td class="w-25">Guest Count</td>
+                    <td class="bg-secondary w-25">Action</td>
+                </tr>
+            </thead>
+            @foreach(Wedding wedding in ViewBag.Wed){
+                bool RSVPed = wedding.Guests.Any(g => g.UserId == Context.Session.GetInt32("UUID"));
+
+                <tr class="d-flex justify-content-around">
+                    <td class="w-25"><a asp-action="One" asp-controller="Weddings" asp-route-WeddingId="@wedding.WeddingId">@wedding.Wedder1 & @wedding.Wedder2</a></td>
+                    <td class="bg-secondary w-25">@wedding.Date</td>
+                    <td class="w-25">@wedding.Guests.Count()</td>
+
+
+                    @if(Context.Session.GetInt32("UUID") == wedding.UserId){
+                        <td class="bg-secondary w-25"><a asp-action="DeleteWedding" asp-controller="Weddings" asp-route-WeddingId="@wedding.WeddingId">Delete</a></td>
+                    }
+                    <form asp-action="RSVP" asp-controller="Weddings" asp-route-WeddingId="@wedding.WeddingId" method="post">
+                        @if(Context.Session.GetInt32("UUID") != wedding.UserId){
+                            @if(!RSVPed){
+                                <td class="bg-secondary w-25"><button type="submit" class="btn-link">RSVP</button></td>
+                            }else if(RSVPed){
+                                <td class="bg-secondary w-25"><button type="submit" class="btn-link">Un-RSVP</button></td>
+                            }
+                        }
+                    </form>
+                    
+
+
+                </tr>
+            }
+        </table>
+    
+    </div>
+</div>

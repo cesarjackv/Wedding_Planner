@@ -1,0 +1,68 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Wedding_Planner
+build_property.RootNamespace = Wedding_Planner
+build_property.ProjectDir = C:\Users\cesar\Coding Dojo\C# & .NET\Assignments\ORMs\Wedding_Planner\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\cesar\Coding Dojo\C# & .NET\Assignments\ORMs\Wedding_Planner
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/cesar/Coding Dojo/C\# & .NET/Assignments/ORMs/Wedding_Planner/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cesar/Coding Dojo/C\# & .NET/Assignments/ORMs/Wedding_Planner/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cesar/Coding Dojo/C\# & .NET/Assignments/ORMs/Wedding_Planner/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cesar/Coding Dojo/C\# & .NET/Assignments/ORMs/Wedding_Planner/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cesar/Coding Dojo/C\# & .NET/Assignments/ORMs/Wedding_Planner/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cesar/Coding Dojo/C\# & .NET/Assignments/ORMs/Wedding_Planner/Views/Users/_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcX0xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cesar/Coding Dojo/C\# & .NET/Assignments/ORMs/Wedding_Planner/Views/Users/_Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcX1JlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cesar/Coding Dojo/C\# & .NET/Assignments/ORMs/Wedding_Planner/Views/Weddings/AllWeddings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ3NcQWxsV2VkZGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cesar/Coding Dojo/C\# & .NET/Assignments/ORMs/Wedding_Planner/Views/Weddings/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ3NcTmV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cesar/Coding Dojo/C\# & .NET/Assignments/ORMs/Wedding_Planner/Views/Weddings/One.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ3NcT25lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cesar/Coding Dojo/C\# & .NET/Assignments/ORMs/Wedding_Planner/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cesar/Coding Dojo/C\# & .NET/Assignments/ORMs/Wedding_Planner/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cesar/Coding Dojo/C\# & .NET/Assignments/ORMs/Wedding_Planner/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-r8csvdm0m9

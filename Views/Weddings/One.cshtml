@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model Wedding; 
+<div class="container text-center d-flex flex-column justify-content-center">
+    <h1 class="display-4">@Model.Wedder1</h1>    
+    <fieldset class="card bg-light w-50 mt-5 px-5 pt-3">
+        <legend>@Model.Wedder1 & @Model.Wedder2's Wedding</legend>
+        <hr width="100%">
+        @* <span class="d-flex justify-content-between mx-5">
+            <p>@Model.Description</p>
+        </span> *@
+        <span class="d-flex justify-content-between mx-5">
+            <p>Date: @Model.Date</p>
+        </span>
+        <div class="d-flex justify-content-between mx-5">
+            <p>Guests: </p>
+            @if(Model.Guests != null){
+                foreach(Planning guest in Model.Guests){
+                    if(guest.User != null){
+                        <div class="mx-auto mt-5">
+                            <p>@guest.User.FirstName @guest.User.LastName</p>
+                        </div>
+                    }else{
+                        <p>Don't Work</p>
+                    }
+                }
+            }else{
+                <p>Don't Work</p>
+            }
+        </div>
+        <span class="d-flex justify-content-between mx-5">
+            <p>Address: @Model.Address</p>
+        </span>
+        <span class="d-flex justify-content-between mx-5">
+        </span>
+    </fieldset>
+</div>
